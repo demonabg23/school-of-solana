@@ -8,7 +8,7 @@ pub mod hello_world {
 
     pub fn initialize(ctx: Context<Initialize>) -> Result<()> {
         let hello_world_account = &mut ctx.accounts.hello_world_account;
-        hello_world_account.greeting = "Hello World".to_string();
+        hello_world_account.greeting = "Hello World!".to_string();
         Ok(())
     }
 }
